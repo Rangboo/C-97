@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <head>
+        <title>Health Checkup</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+    <div class="container">
+    <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+    <center>
+    <h1 class="header">
+       Health Checkup
+    </h1>
+    <h2 style="width:750px;">Basal metabolic rate measure the amount of energy in calories that your body needs to stay alive and function properly.</h2>
+    <h3 id="full_name" class="color_white"></h3>
+        <div class="form-group input_div_room_page">
+            <label>Age :</label>
+            <input type="text" id="option1" class="form-control" placeholder="age">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>Height :</label>
+            <input type="text" id="option2" class="form-control" placeholder="height">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>Weight :</label>
+            <input type="text" id="option3" class="form-control" placeholder="weigth">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>Gender :</label>
+            <input type="text" id="option4" class="form-control" placeholder="gender">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>How active are you :</label>
+            <input type="text" id="option4" class="form-control" placeholder="active">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="calBmr();" class="btn btn-succes">Calculate BMR</button>
+        </div>
+    </center>
+    </div>  
+    <script src="hc_room2.js"></script> 
+    </body>
+</html>

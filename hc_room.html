@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Health Checkup</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="hc_bmi.js"></script>
+    </head>
+
+    <body>
+    <div class="container">
+    <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+    <center>
+    <h1 class="header">
+       Health Checkup
+    </h1>
+    <h2 style="width:750px;"> Body mass index. A measure that relates body weight to height.BMI is sometimes used to measure total body fat and whether a person is a healthy weight.</h2>
+    <h3 id="full_name" class="color_white"></h3>
+        <div class="form-group input_div_room_page">
+            <label>Age :</label>
+            <input type="text" id="option1" class="form-control" placeholder="age">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>Height :</label>
+            <input type="text" id="option2" class="form-control" placeholder="height">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>Weight :</label>
+            <input type="text" id="option3" class="form-control" placeholder="weigth">
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>Gender :</label>
+            <input type="text" id="option4" class="form-control" placeholder="gender">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="result"></div>
+            <button onclick="calBmi();" class="btn btn-succes">Calculate BMI</button>
+        </div>
+    </center>
+    </div>  
+    <div>
+        <center>
+        <h10 style="width: 750px;">Note: Enter your height in meter!</h4>
+        <h20 style="width: 750px;">Note: Enter your weight in kilogram!</h5>
+        </center>
+    </div>
+    </body>
+</html>

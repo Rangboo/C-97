@@ -1,0 +1,51 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+  background: #ef32d9;
+  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
+  background: linear-gradient(to right, #89fffd, #ef32d9); 
+;
+}
+
+.header
+{
+	color: white; font-family: 'Yeon Sung'; font-size: 45px; letter-spacing: 10px; margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 100px;margin-top: 30px;border-radius: 10px;
+}
+
+#bmi_button
+{
+	width: 80%;border-radius: 15px;
+    background-color: #89fffd;
+    font-size:19px;
+}
+#bmr_button
+{
+	width: 80%;border-radius: 15px;
+    background-color: #a203ca;
+    font-size:19px;
+}
+#logout
+{
+	font-size: 40px; float: right;  background-color: rgba(59, 113, 230, 0.76);
+}
+
+ 
